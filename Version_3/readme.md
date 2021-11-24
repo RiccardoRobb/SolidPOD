@@ -5,8 +5,8 @@
      ###### Call [Converter](https://github.com/RiccardoRobb/SolidPOD/blob/main/Version_3/Converter.sol)
 
 ## Costs:
-* `Storage.constructor` Gas: --- 
-* `Storage.checkRule` Gas: ---
-* `Storage.addRule` Gas: ---
-* `Storege.changeRule` Gas: ---
-* `Storage.removeRule` Gas: ---
+* `Storage.constructor` Gas: 1050789
+* `Storage.checkRule` Gas: 83624
+* `Storage.addRule` Gas: 41891
+* `Storege.changeRule` Gas: 102504
+* `Storage.removeRule` Gas: 46678
