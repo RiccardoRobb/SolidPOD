@@ -62,7 +62,9 @@ contract Storage {
         return false;
     } 
 
+/*Only for debug
     function getWebID() public view returns(uint len){
         return rules.length;
     }
+*/
 }
