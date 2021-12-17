@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<?xml-stylesheet type="text/xsl" href="formatter.xsl"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:acl="http://www.w3.org/ns/auth/acl#">
+    <acl:Authorization rdf:about="#ReadWrite">
+        <acl:accessTo rdf:resource="./"/>
+        <acl:agent rdf:resource="/profile/card#me"/>
+        <acl:default rdf:resource="./"/>
+        <acl:mode rdf:resource="http://www.w3.org/ns/auth/acl#Read"/>
+        <acl:mode rdf:resource="http://www.w3.org/ns/auth/acl#Write"/>
+    </acl:Authorization>
+    <acl:Authorization rdf:about="#Read">
+        <acl:accessTo rdf:resource="./"/>
+        <acl:agentClass rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <acl:default rdf:resource="./"/>
+        <acl:mode rdf:resource="http://www.w3.org/ns/auth/acl#Read"/>
+    </acl:Authorization>
+    <acl:Authorization rdf:about="#AppendRead">
+        <acl:accessTo rdf:resource="./"/>
+        <acl:default rdf:resource="./"/>
+        <acl:mode rdf:resource="http://www.w3.org/ns/auth/acl#Append"/>
+        <acl:mode rdf:resource="http://www.w3.org/ns/auth/acl#Read"/>
+        <acl:origin rdf:resource="https://bullybuy.it"/>
+    </acl:Authorization>
+</rdf:RDF>
