@@ -26,6 +26,7 @@ Composed by 2 files:
 # TO DO:
 - [ ] Remove **<em>'changeRule'</em>** method from `Version_7` SmartContract.
 - [ ] Implement **<em>'removePath'</em>** method to `Version_7` SmartContract.
-- [ ] Auto-add #Public and #Owner Containers when creating a file/dir.
+- [ ] Auto-add **#Public** and **#Owner** Containers when creating a file/dir.
 - [ ] Change creation path for `containers.json`.
+- [ ] Hash informations in `containers.json`.
 - [ ] Implement Push Oracles.
