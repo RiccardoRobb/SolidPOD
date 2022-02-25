@@ -20,3 +20,12 @@ Composed by 2 files:
 * `opti.js` located in **community-server/dist/**
   * Manipulates `containers.json` located in ~~**community-server/**~~ (to change in **community-server/PODDir/**).
   * Uses `containers.json` to keep track of Containers status.
+
+<br></br><br></br>
+
+# TO DO:
+- [ ] Remove **<em>'changeRule'</em>** method from `Version_7` SmartContract.
+- [ ] Implement **<em>'removePath'</em>** method to `Version_7` SmartContract.
+- [ ] Auto-add #Public and #Owner Containers when creating a file/dir.
+- [ ] Change creation path for `containers.json`.
+- [ ] Implement Push Oracles.
