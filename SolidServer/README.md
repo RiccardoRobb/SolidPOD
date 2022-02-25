@@ -22,7 +22,7 @@ Composed by 2 files:
   * Uses `containers.json` to keep track of Containers status.
 
 <br></br>
-### Tested using Solid Server recipe ["PENNY"](https://forum.solidproject.org/t/new-developer-tool-app-penny/3837) and Community Server
+### Tested using Solid Server recipe ["PENNY"](https://github.com/solid/community-server-recipes) and [Community Server](https://github.com/solid/community-server/)
 <br></br>
 
 # TO DO:
