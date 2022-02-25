@@ -21,11 +21,13 @@ Composed by 2 files:
   * Manipulates `containers.json` located in ~~**community-server/**~~ (to change in **community-server/PODDir/**).
   * Uses `containers.json` to keep track of Containers status.
 
-<br></br><br></br>
+<br></br>
+### Tested using Solid Server recipe ["PENNY"](https://forum.solidproject.org/t/new-developer-tool-app-penny/3837) and Community Server
+<br></br>
 
 # TO DO:
-- [ ] Remove **<em>'changeRule'</em>** method from `Version_7` SmartContract.
-- [ ] Implement **<em>'removePath'</em>** method to `Version_7` SmartContract.
+- [ ] Remove **<em>'changeRule'</em>** method from [`Version_7`](https://github.com/RiccardoRobb/SolidPOD/tree/main/Version_7) SmartContract.
+- [ ] Implement **<em>'removePath'</em>** method to [`Version_7`](https://github.com/RiccardoRobb/SolidPOD/tree/main/Version_7) SmartContract.
 - [ ] Auto-add **#Public** and **#Owner** Containers when creating a file/dir.
 - [ ] Change creation path for `containers.json`.
 - [ ] Hash informations in `containers.json`.
