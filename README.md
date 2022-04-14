@@ -1,9 +1,9 @@
 # SolidPOD
 .sol files used for storing rules about PODs.
 
-### Constucors costs
+### Constructor costs
 <img src="https://github.com/RiccardoRobb/SolidPOD/blob/main/constructorsCosts.png">
 
-### Methods costs
+### Method costs
 <img src="https://github.com/RiccardoRobb/SolidPOD/blob/main/methodsCosts.png">
   
